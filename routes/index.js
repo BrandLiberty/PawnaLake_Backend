@@ -6,5 +6,7 @@ import send from 'send'
 
 router.post('/contact',contact)
 router.post('/senduserinput',sendUserInput)
-
+router.get("/",(req,res)=>{
+    res.send("hi")
+})
 export default router

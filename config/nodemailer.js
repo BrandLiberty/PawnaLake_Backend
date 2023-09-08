@@ -11,8 +11,11 @@ let transport = nodemailer.createTransport({
     auth : {
         // user : 'ajit.amane1901@gmail.com',
         // pass : 'qchkludmcdmlwuyc'
-        user : 'er.amantiwari.nodeMailer@gmail.com',
-        pass : 'gzdblgruttmikgqq'
+        // user : 'er.amantiwari.nodeMailer@gmail.com',
+        // pass : 'gzdblgruttmikgqq'
+        user : "fiinzet1@gmail.com",
+        pass : "neigtfhrbclviexo"
+
     },
     tls :{
         rejectUnauthorized :true

@@ -1,6 +1,6 @@
 import User from "../models/user.js";
 import Contact from "../models/Contact.js";
-import { contactMailer } from "../mailer/contactMailer.js";
+import { contactMailer} from "../mailer/contactMailer.js";
 
 export const contact =async(req, res) => {
     console.log('API : /contact',req.body);
@@ -13,12 +13,12 @@ export const contact =async(req, res) => {
                 message: "Email is required"
             })
         }
-        let user = await User.findOne({email : email})
-        if(user){
-            return res.status(400).json({
-                message: 'User already Exists'
-            })
-        }
+        // let user = await User.findOne({email : email})
+        // if(user){
+        //     return res.status(400).json({
+        //         message: 'User already Exists'
+        //     })
+        // }
 
         User.create({ name, email, phone, message })
             .then(user => {
