@@ -1,4 +1,4 @@
-import User from "../models/user.js";
+import User from "../models/User.js";
 import Contact from "../models/Contact.js";
 import { contactMailer} from "../mailer/contactMailer.js";
 
