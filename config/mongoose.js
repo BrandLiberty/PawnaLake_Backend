@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-const MONGO_URL = "mongodb+srv://brand_liberty_web:brandliberty1010@cluster0.wqfp3cw.mongodb.net/"
+const MONGO_URL = "mongodb+srv://pawnalakeholiday:%23PawnaLake123@pawnalake.apaxdtd.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose.connect(MONGO_URL);
 
@@ -12,3 +12,4 @@ db.once('open',function(){
 })
 
 export default db
+

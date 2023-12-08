@@ -6,12 +6,9 @@ export const contactMailer = (user)=>{
     let htmlString = nodemailer.renderTemplate({user},'/contact_mailer.ejs')
 
     nodemailer.transport.sendMail({
-        // from : 'ajit.amane1901@gmail.com',
-        from : 'fiinzet1@gmail.com',
-       
-        //to : "taigorad5@gmail.com",
-        to:"ajit.amane@fiinzet.com",
-        subject : 'New Contact Added',
+        from : user.email,
+        to:"pawnalakeholiday@gmail.com",
+        subject : 'New Message Recieved',
         html : htmlString
     },(err,info)=>{
         if(err){

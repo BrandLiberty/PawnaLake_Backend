@@ -1,11 +1,10 @@
 import express from 'express'
 const router  = express.Router()
 
-import { contact , sendUserInput } from '../controllers/homeController.js'
+import { contact } from '../controllers/homeController.js'
 import send from 'send'
 
 router.post('/contact',contact)
-router.post('/senduserinput',sendUserInput)
 router.get("/",(req,res)=>{
     res.send("hi")
 })

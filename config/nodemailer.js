@@ -13,8 +13,8 @@ let transport = nodemailer.createTransport({
         // pass : 'qchkludmcdmlwuyc'
         // user : 'er.amantiwari.nodeMailer@gmail.com',
         // pass : 'gzdblgruttmikgqq'
-        user : "fiinzet1@gmail.com",
-        pass : "neigtfhrbclviexo"
+        user : "pawnalakeholiday@gmail.com",
+        pass : "qxrqnelzrrtwyaor"
 
     },
     tls :{
