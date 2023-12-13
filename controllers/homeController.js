@@ -18,7 +18,7 @@ export const contact =async(req, res) => {
                 console.log('INFO : User Created Successfully')
                 contactMailer(user)
                 return res.status(200).json({
-                    message: 'Contact Created Successfully',
+                    message: 'Request send Successfully. We will contact you soon',
                     data: user
                 })
             })
